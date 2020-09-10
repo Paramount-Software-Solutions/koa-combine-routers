@@ -1,5 +1,5 @@
 import * as Compose from 'koa-compose'
-import * as Router from 'koa-router'
+import * as Router from '@koa/router'
 
 type Middleware = Compose.ComposedMiddleware<any>
 
